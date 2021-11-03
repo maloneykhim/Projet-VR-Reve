@@ -50,8 +50,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   type:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 2
   sphericalMode:
     m_OverrideState: 0
     m_Value: 1
@@ -66,23 +66,23 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: {x: 0, y: -6378100, z: 0}
   airDensityR:
-    m_OverrideState: 0
-    m_Value: 0.04534
+    m_OverrideState: 1
+    m_Value: 0.548
     min: 0
     max: 1
   airDensityG:
-    m_OverrideState: 0
-    m_Value: 0.10237241
+    m_OverrideState: 1
+    m_Value: 0.659
     min: 0
     max: 1
   airDensityB:
-    m_OverrideState: 0
-    m_Value: 0.23264056
+    m_OverrideState: 1
+    m_Value: 0.007
     min: 0
     max: 1
   airTint:
-    m_OverrideState: 0
-    m_Value: {r: 0.9, g: 0.9, b: 1, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0.8349056, g: 1, b: 0.98050463, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 1
@@ -91,8 +91,8 @@ MonoBehaviour:
     m_Value: 55261.973
     min: 0
   aerosolDensity:
-    m_OverrideState: 0
-    m_Value: 0.01192826
+    m_OverrideState: 1
+    m_Value: 0.644
     min: 0
     max: 1
   aerosolTint:
@@ -117,7 +117,7 @@ MonoBehaviour:
     max: 10
   groundTint:
     m_OverrideState: 1
-    m_Value: {r: 0.122641504, g: 0.1043775, b: 0.09313812, a: 1}
+    m_Value: {r: 0.1764706, g: 0.1764706, b: 0.1764706, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 0
@@ -142,8 +142,8 @@ MonoBehaviour:
     m_Value: 1
     min: 0
   spaceRotation:
-    m_OverrideState: 0
-    m_Value: {x: 0, y: 0, z: 0}
+    m_OverrideState: 1
+    m_Value: {x: 1.61, y: -0.15, z: -0.41}
   colorSaturation:
     m_OverrideState: 0
     m_Value: 1
@@ -160,20 +160,20 @@ MonoBehaviour:
     min: 0
     max: 1
   horizonTint:
-    m_OverrideState: 0
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 0.7083051, b: 0.19339621, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 0
   zenithTint:
-    m_OverrideState: 0
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0.3411765, g: 0.94509804, b: 0.51640517, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 0
   horizonZenithShift:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: -0.994
     min: -1
     max: 1
   m_SkyVersion: 1
@@ -199,7 +199,7 @@ MonoBehaviour:
     m_Value: 1
   enabled:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   colorMode:
     m_OverrideState: 0
     m_Value: 1
@@ -335,7 +335,7 @@ MonoBehaviour:
     m_Value: 4
   skyAmbientMode:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   fogType:
     m_OverrideState: 1
     m_Value: 0
