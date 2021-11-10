@@ -380,9 +380,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8391222552659086748, guid: f44827df2db5815479d8d7f45d267da6, type: 3}
+      propertyPath: m_Name
+      value: meuble
+      objectReference: {fileID: 0}
+    - target: {fileID: -7029948723529949830, guid: f44827df2db5815479d8d7f45d267da6, type: 3}
+      propertyPath: m_Name
+      value: "\xE9cran"
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f44827df2db5815479d8d7f45d267da6, type: 3}
       propertyPath: m_Name
       value: clock
+      objectReference: {fileID: 0}
+    - target: {fileID: 4424396828587804706, guid: f44827df2db5815479d8d7f45d267da6, type: 3}
+      propertyPath: m_Name
+      value: cadran lapin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f44827df2db5815479d8d7f45d267da6, type: 3}
@@ -447,7 +459,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.539
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -487,6 +499,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &648396894
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648396892}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: -0.06, y: 0.06, z: 0.06}
+  m_Center: {x: 0.0049890066, y: 0.0076802, z: 0.03}
 --- !u!1 &911704593
 GameObject:
   m_ObjectHideFlags: 0
