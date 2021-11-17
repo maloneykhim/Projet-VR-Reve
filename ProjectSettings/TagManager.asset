@@ -8,10 +8,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - surface
   - Water
   - UI
-  - 
+  - "r\xE9veille"
   - 
   - PostProcessing
   - Not in Reflection
