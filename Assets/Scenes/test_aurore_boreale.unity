@@ -2505,7 +2505,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 0, g: 1, b: 0.8793845, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -8324,7 +8324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"speed","value":{"$content":0.01,"$type":"System.Single"},"$version":"A"},{"name":"direction","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"maximum","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"minimum","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"speed","value":{"$content":0.02,"$type":"System.Single"},"$version":"A"},{"name":"direction","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"maximum","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"minimum","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!82 &1911177037
 AudioSource:
@@ -8338,9 +8338,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6ce3a7bdc92e2da43aede2719a068c3b, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.02
+  m_Volume: 0.05
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
